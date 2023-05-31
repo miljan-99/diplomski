@@ -1,0 +1,58 @@
+body{
+}
+.Dashboard{
+    text-align: center;
+}
+nav {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #FFF;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #000;
+    color: #FFF;
+}
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+.Dashboard-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+p {
+    font-size: 45px;
+    color: black;
+}

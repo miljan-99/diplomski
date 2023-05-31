@@ -1,0 +1,38 @@
+/* ThingspeakTable.css */
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th {
+    background-color: darkgray;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+table tbody tr:nth-child(even) {
+    background-color: black;
+    color: white;
+}
+table tbody tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+.table-header{
+    color: black;
+}

@@ -1,0 +1,14 @@
+.table-header {
+    display: block;
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.table-wrapper {
+    width: 48%;
+}
+
